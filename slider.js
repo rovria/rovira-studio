@@ -37,3 +37,4 @@ $(".swiper").append(`<div class="swiper-scrollbar"></div>`);
       draggable: true
     }
   });
+  
