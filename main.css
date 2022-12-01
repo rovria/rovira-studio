@@ -1,6 +1,7 @@
 .letter {
   display: inline-block;
 }
+/* Project One Stylesheet */
 .projectone_title .letter {
   opacity: 0;
 }
@@ -10,7 +11,7 @@
 .project_one_card_star {
   opacity: 0;
 }
-
+/* Project Two Stylesheet */
 .projecttwo_title .letter {
     opacity: 0;
   }
@@ -20,6 +21,27 @@
   .project_two_card_star {
     opacity: 0;
   }
+/* Project Three Stylesheet */
+.projectthree_title .letter {
+    opacity: 0;
+  }
+  .project_three_label .letter {
+    opacity: 0;
+  }
+  .project_three_card_star {
+    opacity: 0;
+  }
+/* Project Four Stylesheet */
+.projectfour_title .letter {
+    opacity: 0;
+  }
+  .project_four_label .letter {
+    opacity: 0;
+  }
+  .project_four_card_star {
+    opacity: 0;
+  }
+
 
 
 [data-scroll-container] {
