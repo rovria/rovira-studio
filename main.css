@@ -1,0 +1,21 @@
+.letter {
+  display: inline-block;
+}
+.project_card_title .letter {
+  opacity: 0;
+}
+.project_one_label .letter {
+  opacity: 0;
+}
+.project_card_star {
+  opacity: 0;
+}
+[data-scroll-container] {
+  perspective: 1px;
+}
+
+@media only screen and (max-width: 293px) {
+  .footer-top_content {
+    grid-template-columns: 1fr;
+  }
+}
