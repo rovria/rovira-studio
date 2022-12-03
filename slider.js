@@ -23,7 +23,7 @@ const testimonial = new Swiper('.testimonial', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: false,
   },
 
   // Navigation arrows
@@ -34,6 +34,6 @@ const testimonial = new Swiper('.testimonial', {
   // And if we need scrollbar
   scrollbar: {
     el: '.swiper-scrollbar',
-    draggable: true,
+    draggable: false,
   },
 })
