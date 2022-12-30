@@ -41,3 +41,25 @@ var cardFour = new hoverEffect({
   displacementImage:
     'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/636b5e1c8c4c67634588db11_4.png',
 });
+
+var cardFive = new hoverEffect({
+  parent: document.querySelector('.card_imgfive'),
+  intensity: 0.5,
+  image1:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/63ae5ddf892ff676be936cab_project_exopro_1.png',
+  image2:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/63ae5de333698b76d1e77d68_project_exopro_2.png',
+  displacementImage:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/636b5e1c8c4c67634588db11_4.png',
+});
+
+var cardSix = new hoverEffect({
+  parent: document.querySelector('.card_imgsix'),
+  intensity: 0.5,
+  image1:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/63ae5d2b910c707a76c603d9_project_weedsimple_1.png',
+  image2:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/63ae5dd7f706a12920e14ead_project_weedsimple_2.png',
+  displacementImage:
+    'https://uploads-ssl.webflow.com/634e33e838bd6483829835be/636b5e1c8c4c67634588db11_4.png',
+});
