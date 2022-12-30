@@ -1,9 +1,9 @@
-//Project Card ONE - Animation 
-var textWrapper = document.querySelector('.projectone_title')
+//Project Card ONE - Animation
+var textWrapper = document.querySelector('.projectone_title');
 textWrapper.innerHTML = textWrapper.textContent.replace(
-/\S/g,
-  "<span class='letter'>$&</span>",
-)
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgone').hover(
@@ -16,7 +16,7 @@ $(document).ready(function () {
         easing: 'easeOutExpo',
         duration: 1200,
         delay: (el, i) => 500 + 30 * i,
-      })
+      });
     },
 
     function () {
@@ -27,16 +27,16 @@ $(document).ready(function () {
         easing: 'easeInExpo',
         duration: 1100,
         delay: (el, i) => 100 + 30 * i,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 //Project Card One - Category Label Animation
-var textWrapper = document.querySelector('.project_one_label')
+var textWrapper = document.querySelector('.project_one_label');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgone').hover(
@@ -47,7 +47,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -57,12 +57,12 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
-//Project Card One - Project Star Animation [Universal] 
-var textWrapper = document.querySelector('.project_one_card_star')
+      });
+    }
+  );
+});
+//Project Card One - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_one_card_star');
 $(document).ready(function () {
   $('.card_imgone').hover(
     function () {
@@ -72,7 +72,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -82,17 +82,17 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 
-//Project Card TWO - Animation 
-var textWrapper = document.querySelector('.projecttwo_title')
+//Project Card TWO - Animation
+var textWrapper = document.querySelector('.projecttwo_title');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgtwo').hover(
@@ -105,7 +105,7 @@ $(document).ready(function () {
         easing: 'easeOutExpo',
         duration: 1200,
         delay: (el, i) => 500 + 30 * i,
-      })
+      });
     },
 
     function () {
@@ -116,16 +116,16 @@ $(document).ready(function () {
         easing: 'easeInExpo',
         duration: 1100,
         delay: (el, i) => 100 + 30 * i,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 //Project Card One - Category Label Animation
-var textWrapper = document.querySelector('.project_two_label')
+var textWrapper = document.querySelector('.project_two_label');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgtwo').hover(
@@ -136,7 +136,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -146,12 +146,12 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
-//Project Card One - Project Star Animation [Universal] 
-var textWrapper = document.querySelector('.project_two_card_star')
+      });
+    }
+  );
+});
+//Project Card One - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_two_card_star');
 $(document).ready(function () {
   $('.card_imgtwo').hover(
     function () {
@@ -161,7 +161,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -171,17 +171,17 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 
-//Project Card THREE - Animation 
-var textWrapper = document.querySelector('.projectthree_title')
+//Project Card THREE - Animation
+var textWrapper = document.querySelector('.projectthree_title');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgthree').hover(
@@ -194,7 +194,7 @@ $(document).ready(function () {
         easing: 'easeOutExpo',
         duration: 1200,
         delay: (el, i) => 500 + 30 * i,
-      })
+      });
     },
 
     function () {
@@ -205,16 +205,16 @@ $(document).ready(function () {
         easing: 'easeInExpo',
         duration: 1100,
         delay: (el, i) => 100 + 30 * i,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 //Project Card One - Category Label Animation
-var textWrapper = document.querySelector('.project_three_label')
+var textWrapper = document.querySelector('.project_three_label');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgthree').hover(
@@ -225,7 +225,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -235,12 +235,12 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
-//Project Card One - Project Star Animation [Universal] 
-var textWrapper = document.querySelector('.project_three_card_star')
+      });
+    }
+  );
+});
+//Project Card One - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_three_card_star');
 $(document).ready(function () {
   $('.card_imgthree').hover(
     function () {
@@ -250,7 +250,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -260,17 +260,17 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 
-//Project Card FOUR - Animation 
-var textWrapper = document.querySelector('.projectfour_title')
+//Project Card FOUR - Animation
+var textWrapper = document.querySelector('.projectfour_title');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgfour').hover(
@@ -283,7 +283,7 @@ $(document).ready(function () {
         easing: 'easeOutExpo',
         duration: 1200,
         delay: (el, i) => 500 + 30 * i,
-      })
+      });
     },
 
     function () {
@@ -294,16 +294,16 @@ $(document).ready(function () {
         easing: 'easeInExpo',
         duration: 1100,
         delay: (el, i) => 100 + 30 * i,
-      })
-    },
-  )
-})
+      });
+    }
+  );
+});
 //Project Card One - Category Label Animation
-var textWrapper = document.querySelector('.project_four_label')
+var textWrapper = document.querySelector('.project_four_label');
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /\S/g,
-  "<span class='letter'>$&</span>",
-)
+  "<span class='letter'>$&</span>"
+);
 
 $(document).ready(function () {
   $('.card_imgfour').hover(
@@ -314,7 +314,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -324,12 +324,12 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
-    },
-  )
-})
-//Project Card One - Project Star Animation [Universal] 
-var textWrapper = document.querySelector('.project_four_card_star')
+      });
+    }
+  );
+});
+//Project Card One - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_four_card_star');
 $(document).ready(function () {
   $('.card_imgfour').hover(
     function () {
@@ -339,7 +339,7 @@ $(document).ready(function () {
         easing: 'easeInOutQuad',
         duration: 800,
         delay: (el, i) => 150 * (i + 1),
-      })
+      });
     },
 
     function () {
@@ -349,7 +349,185 @@ $(document).ready(function () {
         duration: 800,
         easing: 'easeOutExpo',
         delay: 1000,
-      })
+      });
+    }
+  );
+});
+
+//Project Card FIVE - Animation
+var textWrapper = document.querySelector('.projectfive_title');
+textWrapper.innerHTML = textWrapper.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+$(document).ready(function () {
+  $('.card_imgfive').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.projectfive_title .letter',
+        translateX: [40, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        easing: 'easeOutExpo',
+        duration: 1200,
+        delay: (el, i) => 500 + 30 * i,
+      });
     },
-  )
-})
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.projectfive_title .letter',
+        translateX: [0, -30],
+        opacity: [1, 0],
+        easing: 'easeInExpo',
+        duration: 1100,
+        delay: (el, i) => 100 + 30 * i,
+      });
+    }
+  );
+});
+//Project Card Five - Category Label Animation
+var textWrapper = document.querySelector('.project_five_label');
+textWrapper.innerHTML = textWrapper.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+$(document).ready(function () {
+  $('.card_imgfive').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_five_label .letter',
+        opacity: [0, 1],
+        easing: 'easeInOutQuad',
+        duration: 800,
+        delay: (el, i) => 150 * (i + 1),
+      });
+    },
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_five_label .letter',
+        opacity: 0,
+        duration: 800,
+        easing: 'easeOutExpo',
+        delay: 1000,
+      });
+    }
+  );
+});
+//Project Card Five - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_five_card_star');
+$(document).ready(function () {
+  $('.card_imgfive').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_five_card_star',
+        opacity: [0, 1],
+        easing: 'easeInOutQuad',
+        duration: 800,
+        delay: (el, i) => 150 * (i + 1),
+      });
+    },
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_five_card_star',
+        opacity: 0,
+        duration: 800,
+        easing: 'easeOutExpo',
+        delay: 1000,
+      });
+    }
+  );
+});
+
+//Project Card SIX - Animation
+var textWrapper = document.querySelector('.projectsix_title');
+textWrapper.innerHTML = textWrapper.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+$(document).ready(function () {
+  $('.card_imgsix').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.projectsix_title .letter',
+        translateX: [40, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        easing: 'easeOutExpo',
+        duration: 1200,
+        delay: (el, i) => 500 + 30 * i,
+      });
+    },
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.projectsix_title .letter',
+        translateX: [0, -30],
+        opacity: [1, 0],
+        easing: 'easeInExpo',
+        duration: 1100,
+        delay: (el, i) => 100 + 30 * i,
+      });
+    }
+  );
+});
+//Project Card Five - Category Label Animation
+var textWrapper = document.querySelector('.project_six_label');
+textWrapper.innerHTML = textWrapper.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+$(document).ready(function () {
+  $('.card_imgsix').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_six_label .letter',
+        opacity: [0, 1],
+        easing: 'easeInOutQuad',
+        duration: 800,
+        delay: (el, i) => 150 * (i + 1),
+      });
+    },
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_six_label .letter',
+        opacity: 0,
+        duration: 800,
+        easing: 'easeOutExpo',
+        delay: 1000,
+      });
+    }
+  );
+});
+//Project Card Five - Project Star Animation [Universal]
+var textWrapper = document.querySelector('.project_six_card_star');
+$(document).ready(function () {
+  $('.card_imgsix').hover(
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_six_card_star',
+        opacity: [0, 1],
+        easing: 'easeInOutQuad',
+        duration: 800,
+        delay: (el, i) => 150 * (i + 1),
+      });
+    },
+
+    function () {
+      anime.timeline({ loop: false }).add({
+        targets: '.project_six_card_star',
+        opacity: 0,
+        duration: 800,
+        easing: 'easeOutExpo',
+        delay: 1000,
+      });
+    }
+  );
+});
