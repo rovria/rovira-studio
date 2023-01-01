@@ -1,3 +1,7 @@
+const locoObserver = new ResizeObserver(() => scroll.update()).observe(
+  document.querySelector('[data-scroll-container]')
+);
+
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector('.locomotive-scroll'),
   smooth: true,
@@ -9,4 +13,4 @@ const locoScroll = new LocomotiveScroll({
   },
   smoothMobile: 1,
   multiplier: 1.0,
-})
+});
